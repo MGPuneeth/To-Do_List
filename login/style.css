@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #000066, #91016d );
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.header{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    position: fixed;
+   
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+nav button{
+    border: 0;
+    background: radial-gradient(#1a1a1a80,#2f2c2c80);
+    color: white;
+    padding: 7px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+nav button:hover{
+    background: blue;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.container{
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 120px auto 30px auto;
+    cursor: context-menu;
+    position: relative;
+    
+}
+
+.login{
+    padding: 20px;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-items: left;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.login p{
+    color: white;
+}
+#logo{
+    
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.foot button{
+    border: 0;
+    background: radial-gradient(#1a1a1a80,#2f2c2c80);
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.foot button:hover{
+    background: blue;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.login input{
+    border: 1px solid white;
+    background: transparent;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    outline: 0;
+    padding: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: azure;
+}
+a{
+    color: aqua;
+}
+

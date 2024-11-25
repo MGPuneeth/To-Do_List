@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #000066, #91016d );
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.header{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    
+}
+nav{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    position: relative;
+   
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+nav{
+    width: 100%;
+    padding: 10px;
+}
+.button{
+    margin-right: 10px;
+}
+a button{
+    border: 0;
+    background: radial-gradient(#1a1a1a80,#2f2c2c80);
+    color: white;
+    padding: 7px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+a button:hover{
+    background: blue;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.container{
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 150px auto 40px auto;
+    cursor: context-menu;
+    position: relative;
+    
+}
+.stats{
+    padding: 20px;
+    border: 4px solid white;
+    display: flex;
+    flex-basis: 75%;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.details{
+    
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+#progressbar {
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgb(24, 24, 25);
+    width: 80%;
+    height: 7px;
+}
+#progress{
+    background-color: #009933;
+    border-radius: 8px;
+    width: 0%;
+    height: 7px;
+}
+.details h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.details p{
+    
+    margin-top: -10px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.stat-numbers{
+    
+    display: flex;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;   
+    background: radial-gradient(#0066ff, #0000cc ); 
+}
+#numbers{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+form {
+    margin: 20px auto 20px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container form input{
+    border: 1px solid white;
+    background: transparent;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    outline: 0;
+    padding: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: azure;
+}
+.container form button{
+    border: 1px white;
+    outline: 1px;
+    margin-left: 5px;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 8px 8px 8px 8px;
+    background: radial-gradient(#ff2a00 ,#ff0000);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.container form button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#task-list{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: -10%;
+    width: 100%;
+    list-style: none;
+    
+}
+
+.taskItem{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 470px;
+    padding: 2px 2px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+.date-time{
+    flex-basis: 20%;
+}
+.date-time input{
+    width: 100px;
+    height: 12px;
+}
+.task input{
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.task.completed{
+    text-decoration: line-through;
+    background-color: linear-gradient(rgba(0,0,0,0.7));
+    font-style: italic;
+    color: aqua;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+}

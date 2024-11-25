@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #000066, #91016d );
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.header{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    position: relative;
+   
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+nav button{
+    border: 0;
+    background: radial-gradient(#1a1a1a80,#2f2c2c80);
+    color: white;
+    padding: 7px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+nav button:hover{
+    background: blue;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.Hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.Hero h1{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 750px;
+    margin: 10px;
+
+}
+.Hero h2{
+    color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500 ;
+    margin-bottom: 20px;
+}
+.Hero p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+.Hero button{
+    background: #b50000;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 15px 20px;
+
+}
+.Hero button:hover{
+    background: #db0001;
+    transition: 0.1s;
+    transform: scale(1.05);
+}

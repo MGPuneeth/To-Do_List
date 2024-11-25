@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo1.png">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo"><img src="img/logo1.png" class="logo"/></div>
+            
+            <div class="button">
+                <a href="../home/index.html"><button>Home</button></a>
+                <a href="../login/index.html"><button>Log in</button></a>
+                <a href="../sign_up/index.html"><button>Sign up</button></a>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <div class="stats">
+            <div class="details">
+                <h2>TO-DO LIST</h2>
+                <p>Keep it up!!</p>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stat-numbers">
+                <p id="numbers"> 0/0</p>
+            </div>
+            
+            
+        </div>
+        <form class="Task"  action="">
+            <input id="input-task" type="text" placeholder="Type your Task...">
+            <button id="new-task" type="submit">+</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+   
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
+
